@@ -1,0 +1,29 @@
+name: camera_app
+description: A demo camera app for flutter
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  camera: ^0.5.8+2
+  path_provider:
+  path:
+  image_gallery_saver:
+  cupertino_icons: ^0.1.2
+  permission_handler:
+  audioplayers:
+  image_picker:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/shutter.wav
